@@ -206,4 +206,78 @@ body
     height: 20px;
     z-index: 1;
 
+
+    
+}
+
+/*--------services ---------*/
+.services
+{
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    
+}
+
+.services h1 {
+    margin-bottom: 20px;
+    padding-right: 300px;
+}
+
+.services-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+    
+}
+
+.services-box .fa {
+    margin:0 10px;
+    font-size: 20px;
+}
+
+.services-box span{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.services-box p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #777;
+    text-align: center;
+    
+}
+
+.services-box a
+{
+    color: #000;
+}
+.services-box a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+.services-box:hover
+{
+    background: #000;
+    color: #fff;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px;
+    transition: 1s;
+}
+
+.services-box:hover p {  /* need to change paragraph text to white when hoover is triggered*/
+    color: white;
+    
+
 }
