@@ -22,7 +22,7 @@
     <section id="Header">
         <div class="container text-center">
         <div class="photo-profile">
-            <img src="images/CV.jpg" alt="userphoto">
+            <img src="images/CV.jpg" class="img-circle" alt="userphoto">
             <h1>Edward McGrath</h1>
             <p>Software developer</p>
 
@@ -72,6 +72,7 @@
         </div>
 
           <!------About------>
+          <!------boot strap feature progress bar------>
 
           <div class="about container" id="about">
               <div class = "row">
@@ -80,15 +81,12 @@
                 </div>
                 <div class="col-md-6">
                     <h3>About me</h3>
-                    <p>Young Software engineering student working full time in Retail management. Looking to move on in my career to start gaining experience.
-
-                        Coming from a Management background in retail I learned it is essential that clear and concise communication is critical.
-                        
-                        Focused and continual Development, learning new skills (programming languages) and applying areas of knowledge to be as effective as possible in any given role.
+                    <p>Young Cloud Computing and Devops student working full time employment within AWS. WOrking mostly with cloud services such as AWS lambda , API gateway and Step funcitons.
+                        Continuously self learning to improve coding skills in Python , HTML , CSS , and Java.
                         
                         I take pride in my work and I am very willing to grow and learn for your company.
                         </p>
-                    
+                    <!------boot strap feature progress bar------>
                     <div class="skills-bar">
                         <p>Python</p>
                         <div class="progress">
@@ -99,6 +97,12 @@
                         <p>html + CSS</p>
                         <div class="progress">
                             <div class="progress-bar" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+                    <div class="skills-bar">
+                        <p>Cloud Architecture</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;">80%</div>
                         </div>
                     </div>
                     <div class="skills-bar">
@@ -141,9 +145,16 @@
                     <div class="col-md-6">    <!---left column--->
                         <h3 class="text-center">Experience</h3>
                         <ul class="timeline">
+                            <li><h4> <span> </span> Cloud Enigineer </h4>
+                                <b>Company</b> - Amazon Web Services <br>
+                                <b>Duration</b> - 06 / 2021 – Present<br>
+                                <b>Location</b> -  Co.Dublin <br>
+                                <p>Working with services such as AWS Lambda , API Gateway , Stepfucntions , Cloud 9 , Amazon Connect , Amazon SNS/SMS </p>
+                            </li>
+                            
                             <li><h4> <span> </span> Retail manager </h4>
                             <b>Company</b> - CEx - Complete Exchange Entertainment <br>
-                            <b>Duration</b> - 10 / 2018 – Present<br>
+                            <b>Duration</b> - 10 / 2018 – 06 / 2021<br>
                             <b>Location</b> - Stillorgan , Co.Dublin <br>
                             <p>I was responsible for store operation and achieving sales targets with managing a team of 10. I also worked with spreadsheets consisting of LFL, PTM and V&A data. </p>
                             </li>
@@ -177,7 +188,7 @@
                     <div class="col-md-6">    <!---left column--->
                         <h3 class="text-center">Education</h3>
                         <ul class="timeline">
-                            <li><h4> <span> </span> Bachelor of Computer Science in Software Development</h4>
+                            <li><h4> <span> </span> Bachelor of Computer Science in DevOPS</h4>
                             <b>Insitute</b> - Technology University Dublin <br>
                             <b>Duration</b> - 2018 - Present <br>
                             <b>GPA</b> - 3.5 Throughout <br>
@@ -215,34 +226,20 @@
           </div>
 
     <!----Services----->
+       <!----Bootstrap function----->
     <div class= "services" id="services">
         <div class="container">
             <h1 class="text-center">More Information</h1>
             <p class="text-center"> </p>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="services-box">
-                        <i class="fa fa-linkedin"></i><span>Linkedin</span>
-                        <p><a href="https://www.linkedin.com/in/ed-mcgrath-it/">Click Link</a></p>
-
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="services-box">
-                        <i class="fa fa-github"></i><span>Github</span>
-                        <p><a href=https://github.com/Scorch116>Click Link</a></p>
-                        
-
-
-                    </div>
-                </div>
-
+             
+            <div class="d-grid gap-3">
+                <a href="https://github.com/Scorch116" class="btn btn-success btn-block">Github</a>
+                <a href="https://www.linkedin.com/in/ed-mcgrath-it/" class="btn btn-primary btn-block">Linkedin</a>
             </div>
             
         </div>
     </div>
+
 
 
 <!--contact section-->
@@ -254,7 +251,7 @@
         <div class="row">
             <div class="col-md-4">
                 <i class="fa fa-mobile"></i>
-                <p>0870699764</p>
+                <p>0812345678</p>
             </div>
             <div class="col-md-4">
                 <i class="fa fa-inbox"></i>
