@@ -341,3 +341,50 @@ font-size: 22px;
     font-size: 22px;
 
 }
+
+/* footer */
+
+.footer
+{
+    background: #000;
+    height: 50px;
+    margin-top:50px;
+    color:#fff;
+    padding-top: 10px;
+
+}
+
+/* social icons - not nessesary but doing for fun */
+.social-icons
+{
+    top:50%;
+    transform:translateY(-50%);
+    position: sticky;
+    z-index: 1;
+    width: 80px;
+}
+
+.social-icons ul 
+{
+
+    padding: initial;
+}
+
+.social-icons ul li
+{
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top:5px;
+    color: #fff;
+    background: #000;
+}
+
+.social-icons ul li:hover
+{
+    padding-left: 30px;
+    width: 80px;
+    transition: 1s;
+}
